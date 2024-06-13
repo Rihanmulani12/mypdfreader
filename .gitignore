@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (e.g. venv, virtualenv, pipenv, etc.)
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Compiled Python files
+*.pyc
+
+# Generated files
+*.csv
+*.xlsx
+*.pdf
+
+# Dependency directories
+node_modules/
+__pycache__/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Personal configurations
+config.json
+
+# macOS metadata files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
