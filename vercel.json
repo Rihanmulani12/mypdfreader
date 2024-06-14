@@ -1,14 +1,14 @@
 {
-    "version": 2,
-    "functions": {
-      "api/app": {
-        "handler": "app.app",
-        "runtime": "python3.9"
+    "devCommand": "uvicorn app:app --host 0.0.0.0 --port $PORT",
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
       }
-    },
+    ],
     "routes": [
-      { "src": "/api/upload", "dest": "/api/app/upload" },
-      { "src": "/api/ask", "dest": "/api/app/ask" }
+      { "src": "/upload", "dest": "app.py" },
+      { "src": "/ask", "dest": "app.py" }
     ]
   }
   
