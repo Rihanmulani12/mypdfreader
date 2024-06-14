@@ -1,11 +1,8 @@
 fastapi
 PyPDF2
 langchain
-langchain-google-genai
-faiss
 google-generativeai
-python-dotenv
-
+dotenv
 
 
 
