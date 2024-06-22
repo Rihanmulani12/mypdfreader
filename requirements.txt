@@ -1,13 +1,10 @@
-fastapi
-fastapi.middleware.cors
-PyPDF2
-langchain.text_splitter
-langchain
-langchain_google_genai
-google-generativeai
-langchain_community.vectorstores
-langchain.chains.question_answering
-langchain.prompts
-dotenv
-
+fastapi==0.111.0
+uvicorn==0.30.1
+PyPDF2==3.0.1
+langchain==0.2.3
+langchain-google-genai==1.0.6
+google-generativeai==0.5.4
+langchain-community==0.2.4
+faiss-cpu==1.8.0
+python-dotenv==1.0.1
 
